@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #6a0dad;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      animation: fadeIn 2s ease-out;
+    }
+    .about-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 20px;
+      animation: slideIn 1.5s ease-out;
+    }
+    .about-text {
+      max-width: 600px;
+      font-size: 18px;
+      line-height: 1.6;
+      color: #555;
+      animation: fadeIn 3s ease-out;
+    }
+    .about-image {
+      max-width: 300px;
+      border-radius: 50%;
+      box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+      animation: slideIn 2s ease-out;
+    }
+    .about-buttons {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .btn {
+      padding: 12px 20px;
+      background-color: #6a0dad;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .btn:hover {
+      background-color: #9b4eeb;
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    @keyframes slideIn {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(0); }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  About Me
+</header>
+
+<div class="about-container">
+  <div class="about-text">
+    <h2>Hello, I'm Kota Naveen</h2>
+    <p>I am a passionate web developer, always exploring the latest technologies to create innovative web solutions. With experience in HTML, CSS, JavaScript, and Python, I love turning creative ideas into functional websites.</p>
+    <p>Currently, I'm a B.Tech student at MVR College of Engineering and Technology, specializing in web development. When I'm not coding, I enjoy learning about new tech trends and sharing knowledge through my YouTube channel.</p>
+  </div>
+  <img src="https://res.cloudinary.com/dacgtogmv/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1731388654/MY_IMAGE-removebg-preview_lmdmsr.png" alt="Your Image" class="about-image">
+</div>
+
+<div class="about-buttons">
+  <a href="contact us.html" class="btn">Contact Me</a>
+  <a href="https://www.youtube.com/@Telugumoneymakers" class="btn" target="_blank">Visit My Channel</a>
+</div>
+
+</body>
+</html>
